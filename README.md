@@ -1,127 +1,119 @@
-# 🎓 EduPro Analytics Dashboard
+🎓 EduPro Analytics Dashboard
+Learner Demographics & Course Enrollment Behavior Analysis
 
-## Project Overview
+A professional Data Analytics Dashboard built using Python, Pandas, Matplotlib, and Streamlit to analyze learner demographics, course enrollments, and educational trends.
 
-The EduPro Analytics Dashboard is an interactive data analytics project developed using Python and Streamlit. It helps analyze learner demographics, course enrollment trends, and course popularity using an educational platform dataset.
+This project helps educational organizations understand student behavior, identify popular courses, and gain insights through interactive visualizations.
 
-The dashboard allows users to filter data by gender, course level, and course category to explore different insights.
+👨‍💻 Developer
 
----
+Anas Ali
 
-## Features
+B.Tech CSE (2nd Year)
 
-- Interactive dashboard using Streamlit
-- Sidebar filters for data exploration
-- Key Performance Indicators (KPIs)
-- Learner demographic analysis
-- Age group distribution
-- Gender-wise enrollment analysis
-- Top 10 course categories
-- Course level popularity
-- Dataset preview
-- Download filtered dataset
+ICFAI University, Jaipur
 
----
+🚀 Live Demo
 
-## Technologies Used
+Streamlit App
 
-- Python
-- Pandas
-- Streamlit
-- Matplotlib
-- Seaborn
-- OpenPyXL
+https://edupro-analytics-dashboard-i.streamlit.app/
 
----
+📂 GitHub Repository
 
-## Dataset
+https://github.com/anasali0010/EduPro-Analytics-Dashboard
 
-The project uses an educational platform dataset containing three tables:
+📊 Dashboard Features
 
-- Users
-- Courses
-- Transactions
+✔ Interactive Sidebar Filters
 
-These tables are merged to generate learner and enrollment analytics.
+Gender Filter
+Course Level Filter
+Course Category Filter
+📈 KPI Cards
+Total Enrollments
+Total Learners
+Average Courses per Learner
+Most Popular Course Category
+📊 Visual Analytics
+Gender Distribution
+Age Group Distribution
+Top 10 Course Categories
+Course Level Popularity
+📋 Dataset Preview
 
----
+Displays filtered learner information including:
 
-## Dashboard Preview
+Age
+Gender
+Course Category
+Course Level
+Course Name
+💡 Key Insights
 
-(Add dashboard screenshot here)
+Automatically summarizes important findings such as:
+
+Most active learner age group
+Most popular course category
+Average enrollments
+Course level comparison
+📥 Download Option
+
+Users can download the filtered dataset as a CSV file.
+
+🛠 Technologies Used
+Python
+Pandas
+Matplotlib
+Streamlit
+OpenPyXL
+📁 Dataset
+
+The project uses an Excel dataset containing three sheets:
+
+Users
+Courses
+Transactions
+
+The sheets are merged using common IDs to generate meaningful educational analytics.
+
+📷 Dashboard Screenshot
+
+Create a folder named screenshots and place the dashboard image inside it as:
+
+screenshots/dashboard.png
+
+Then display it using:
 
 ![Dashboard](screenshots/dashboard.png)
-
----
-
-## Key Insights
-
-- Most learners belong to the 26–35 age group.
-- Data Science is the most popular course category.
-- Learners enroll in approximately 3.33 courses on average.
-- Beginner and Advanced courses have similar enrollment counts.
-
----
-
-## Project Structure
-
-```
-Edu_Project/
-│
-├── app.py
-├── EduPro Online Platform.xlsx
-├── requirements.txt
-├── README.md
-├── LICENSE
-├── .gitignore
-└── screenshots/
-    └── dashboard.png
-```
-
----
-
-## Installation
+▶️ Installation
 
 Clone the repository
 
-```bash
-git clone <repository-link>
-```
+git clone https://github.com/anasali0010/EduPro-Analytics-Dashboard.git
 
-Move to project folder
+Go to project folder
 
-```bash
-cd Edu_Project
-```
+cd EduPro-Analytics-Dashboard
 
-Install required libraries
+Install dependencies
 
-```bash
 pip install -r requirements.txt
-```
 
-Run the application
+Run Streamlit
 
-```bash
 streamlit run app.py
-```
+📌 Future Improvements
+Login Authentication
+Course Recommendation System
+Power BI Dashboard Version
+SQL Database Integration
+Predictive Analytics
+Machine Learning Models
+📄 License
 
----
+This project is developed for educational and internship purposes.
 
-## Future Improvements
+⭐ Support
 
-- More interactive visualizations
-- Time-based enrollment analysis
-- Student performance prediction
-- Export dashboard as PDF
-- Machine Learning based recommendations
-
----
-
-## Author
-
-**Anas Ali**
-
-B.Tech Computer Science Engineering
-
-Data Analytics Internship Project
+If you found this project useful, consider giving it a ⭐ on GitHub.
