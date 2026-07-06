@@ -1,119 +1,253 @@
-🎓 EduPro Analytics Dashboard
-Learner Demographics & Course Enrollment Behavior Analysis
+# 🎓 EduPro Analytics Dashboard
 
-A professional Data Analytics Dashboard built using Python, Pandas, Matplotlib, and Streamlit to analyze learner demographics, course enrollments, and educational trends.
 
-This project helps educational organizations understand student behavior, identify popular courses, and gain insights through interactive visualizations.
 
-👨‍💻 Developer
+## Project Overview
 
-Anas Ali
 
-B.Tech CSE (2nd Year)
 
-ICFAI University, Jaipur
+The EduPro Analytics Dashboard is an interactive data analytics project developed using Python and Streamlit. It helps analyze learner demographics, course enrollment trends, and course popularity using an educational platform dataset.
 
-🚀 Live Demo
 
-Streamlit App
 
-https://edupro-analytics-dashboard-i.streamlit.app/
+The dashboard allows users to filter data by gender, course level, and course category to explore different insights.
 
-📂 GitHub Repository
 
-https://github.com/anasali0010/EduPro-Analytics-Dashboard
 
-📊 Dashboard Features
+---
 
-✔ Interactive Sidebar Filters
 
-Gender Filter
-Course Level Filter
-Course Category Filter
-📈 KPI Cards
-Total Enrollments
-Total Learners
-Average Courses per Learner
-Most Popular Course Category
-📊 Visual Analytics
-Gender Distribution
-Age Group Distribution
-Top 10 Course Categories
-Course Level Popularity
-📋 Dataset Preview
 
-Displays filtered learner information including:
+## Features
 
-Age
-Gender
-Course Category
-Course Level
-Course Name
-💡 Key Insights
 
-Automatically summarizes important findings such as:
 
-Most active learner age group
-Most popular course category
-Average enrollments
-Course level comparison
-📥 Download Option
+- Interactive dashboard using Streamlit
 
-Users can download the filtered dataset as a CSV file.
+- Sidebar filters for data exploration
 
-🛠 Technologies Used
-Python
-Pandas
-Matplotlib
-Streamlit
-OpenPyXL
-📁 Dataset
+- Key Performance Indicators (KPIs)
 
-The project uses an Excel dataset containing three sheets:
+- Learner demographic analysis
 
-Users
-Courses
-Transactions
+- Age group distribution
 
-The sheets are merged using common IDs to generate meaningful educational analytics.
+- Gender-wise enrollment analysis
 
-📷 Dashboard Screenshot
+- Top 10 course categories
 
-Create a folder named screenshots and place the dashboard image inside it as:
+- Course level popularity
 
-screenshots/dashboard.png
+- Dataset preview
 
-Then display it using:
+- Download filtered dataset
+
+
+
+---
+
+
+
+## Technologies Used
+
+
+
+- Python
+
+- Pandas
+
+- Streamlit
+
+- Matplotlib
+
+- Seaborn
+
+- OpenPyXL
+
+
+
+---
+
+
+
+## Dataset
+
+
+
+The project uses an educational platform dataset containing three tables:
+
+
+
+- Users
+
+- Courses
+
+- Transactions
+
+
+
+These tables are merged to generate learner and enrollment analytics.
+
+
+
+---
+
+
+
+## Dashboard Preview
+
+
+
+(Add dashboard screenshot here)
+
+
 
 ![Dashboard](screenshots/dashboard.png)
-▶️ Installation
+
+
+
+---
+
+
+
+## Key Insights
+
+
+
+- Most learners belong to the 26–35 age group.
+
+- Data Science is the most popular course category.
+
+- Learners enroll in approximately 3.33 courses on average.
+
+- Beginner and Advanced courses have similar enrollment counts.
+
+
+
+---
+
+
+
+## Project Structure
+
+
+
+```
+
+Edu_Project/
+
+│
+
+├── app.py
+
+├── EduPro Online Platform.xlsx
+
+├── requirements.txt
+
+├── README.md
+
+├── LICENSE
+
+├── .gitignore
+
+└── screenshots/
+
+    └── dashboard.png
+
+```
+
+
+
+---
+
+
+
+## Installation
+
+
 
 Clone the repository
 
-git clone https://github.com/anasali0010/EduPro-Analytics-Dashboard.git
 
-Go to project folder
 
-cd EduPro-Analytics-Dashboard
+```bash
 
-Install dependencies
+git clone <repository-link>
+
+```
+
+
+
+Move to project folder
+
+
+
+```bash
+
+cd Edu_Project
+
+```
+
+
+
+Install required libraries
+
+
+
+```bash
 
 pip install -r requirements.txt
 
-Run Streamlit
+```
+
+
+
+Run the application
+
+
+
+```bash
 
 streamlit run app.py
-📌 Future Improvements
-Login Authentication
-Course Recommendation System
-Power BI Dashboard Version
-SQL Database Integration
-Predictive Analytics
-Machine Learning Models
-📄 License
 
-This project is developed for educational and internship purposes.
+```
 
-⭐ Support
 
-If you found this project useful, consider giving it a ⭐ on GitHub.
+
+---
+
+
+
+## Future Improvements
+
+
+
+- More interactive visualizations
+
+- Time-based enrollment analysis
+
+- Student performance prediction
+
+- Export dashboard as PDF
+
+- Machine Learning based recommendations
+
+
+
+---
+
+
+
+## Author
+
+
+
+**Anas Ali**
+
+
+
+B.Tech Computer Science Engineering
+
+
+
+Data Analytics Internship Project
