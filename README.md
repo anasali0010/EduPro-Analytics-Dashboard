@@ -237,6 +237,30 @@ streamlit run app.py
 ---
 
 
+---
+
+# 📄 Research Paper
+
+This project is accompanied by a detailed research paper covering:
+
+- Introduction
+- Problem Statement
+- Dataset Description
+- Data Preprocessing
+- Exploratory Data Analysis (EDA)
+- Dashboard Development
+- Key Insights
+- Conclusion
+- Future Scope
+
+### 📥 Download Research Paper
+
+[Download Research Paper](EduPro_Analytics_Research_Paper.docx)
+
+
+---
+
+---
 
 ## Author
 
